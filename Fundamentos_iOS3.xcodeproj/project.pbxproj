@@ -13,7 +13,7 @@
 		B60BCD4B2585A5D000ACB51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60BCD492585A5D000ACB51C /* Main.storyboard */; };
 		B60BCD4D2585A5D300ACB51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60BCD4C2585A5D300ACB51C /* Assets.xcassets */; };
 		B60BCD502585A5D400ACB51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60BCD4E2585A5D400ACB51C /* LaunchScreen.storyboard */; };
-		B6160F292761B79F001BCAF7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6160F282761B79F001BCAF7 /* Home.storyboard */; };
+		B6160F2B2763E738001BCAF7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6160F2A2763E738001BCAF7 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		B60BCD4C2585A5D300ACB51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B60BCD4F2585A5D400ACB51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60BCD512585A5D400ACB51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6160F282761B79F001BCAF7 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B6160F2A2763E738001BCAF7 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B60BCD492585A5D000ACB51C /* Main.storyboard */,
-				B6160F282761B79F001BCAF7 /* Home.storyboard */,
+				B6160F2A2763E738001BCAF7 /* Home.storyboard */,
 				B60BCD4E2585A5D400ACB51C /* LaunchScreen.storyboard */,
 			);
 			path = Views;
@@ -162,7 +162,7 @@
 				B60BCD502585A5D400ACB51C /* LaunchScreen.storyboard in Resources */,
 				B60BCD4D2585A5D300ACB51C /* Assets.xcassets in Resources */,
 				B60BCD4B2585A5D000ACB51C /* Main.storyboard in Resources */,
-				B6160F292761B79F001BCAF7 /* Home.storyboard in Resources */,
+				B6160F2B2763E738001BCAF7 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

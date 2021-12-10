@@ -20,10 +20,23 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="rRe-8u-qBw"/>
+                    <connections>
+                        <segue destination="RdW-Vl-5hK" kind="show" identifier="SEGUE_FROM_MAIN_TO_HOME" id="eMo-Mt-g00"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="979.71014492753636" y="20.758928571428569"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="jhy-IA-8ww">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="RdW-Vl-5hK" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="9bM-hV-LqJ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a4A-Sa-L17" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1651" y="51"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QIp-CE-1H0">
