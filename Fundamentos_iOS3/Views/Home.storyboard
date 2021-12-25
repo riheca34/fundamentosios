@@ -9,44 +9,58 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="T9T-gP-epl">
             <objects>
-                <viewController storyboardIdentifier="Home" id="CJm-J3-dty" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="CJm-J3-dty" customClass="HomeViewController" customModule="Fundamentos_iOS3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="txm-YZ-MUu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPX-kx-95q">
-                                <rect key="frame" x="174" y="386" width="99" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="dynamic">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                    </backgroundConfiguration>
-                                    <color key="baseForegroundColor" systemColor="systemGray6Color"/>
-                                </buttonConfiguration>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="equalCentering" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="WAv-Ie-UYv">
+                                <rect key="frame" x="20" y="44" width="374" height="1401.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wonder" translatesAutoresizingMaskIntoConstraints="NO" id="6Al-g7-AmZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="351"/>
+                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deep" translatesAutoresizingMaskIntoConstraints="NO" id="PQH-UF-op7">
+                                        <rect key="frame" x="0.0" y="401" width="374" height="338.5"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oBh-En-krv">
+                                        <rect key="frame" x="0.0" y="923.5" width="374" height="83"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IOn-jz-eFJ">
+                                        <rect key="frame" x="0.0" y="1318.5" width="374" height="83"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zjp-Le-tpQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="83"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oNs-Sr-FNl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WAv-Ie-UYv" firstAttribute="top" secondItem="oNs-Sr-FNl" secondAttribute="top" id="QrN-kH-qsg"/>
+                            <constraint firstItem="oNs-Sr-FNl" firstAttribute="trailing" secondItem="WAv-Ie-UYv" secondAttribute="trailing" constant="20" id="gKg-ZP-d0a"/>
+                            <constraint firstItem="WAv-Ie-UYv" firstAttribute="leading" secondItem="oNs-Sr-FNl" secondAttribute="leading" constant="20" id="hJr-te-Mvg"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="OPD-kf-bNS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rvk-Af-nhb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-500.00000000000006" y="-798.21428571428567"/>
+            <point key="canvasLocation" x="410.14492753623193" y="-798.21428571428567"/>
         </scene>
     </scenes>
     <resources>
+        <image name="deep" width="237" height="338.5"/>
+        <image name="wonder" width="237" height="351"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
